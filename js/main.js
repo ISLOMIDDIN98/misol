@@ -17,6 +17,6 @@ elSelect.addEventListener('change', function (){
 
     elInput.value = '';
 
-    elInput.disabled === true;
+    elInput.disabled = true;
   }
 });
