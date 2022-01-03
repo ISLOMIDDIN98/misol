@@ -4,19 +4,49 @@
 // document.body.classList.toggle('dark-mode');
 // });
 
-const elSelect = document.querySelector('.select');
-const elInput = document.querySelector('.input');
 
-elSelect.addEventListener('change', function (){
+// toyhat bn ishlash
 
-  if(elSelect.value === 'boshqa'){
+// const elSelect = document.querySelector('.select');
+// const elInput = document.querySelector('.input');
 
-    elInput.disabled = false;
+// elSelect.addEventListener('change', function (){
 
-  }else{
+//   if(elSelect.value === 'boshqa'){
 
-    elInput.value = '';
+//     elInput.disabled = false;
 
-    elInput.disabled = true;
-  }
+//   }else{
+
+//     elInput.value = '';
+
+//     elInput.disabled = true;
+//   }
+
+// });
+
+const elbutt = document.querySelector('.butt');
+
+
+elbutt.addEventListener('click', function(){
+  document.querySelectorAll('.inspan').forEach(function(insp){
+
+    insp.classList.toggle('span-red');
+
+  });
+
+
+
+});
+
+
+
+
+const elTriger = document.querySelector('.trigger');
+
+
+elTriger.addEventListener('click', function(){
+document.querySelectorAll('.demo').forEach(function(demo){
+demo.classList.toggle('demo-green');
+});
 });

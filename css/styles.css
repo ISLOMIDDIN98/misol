@@ -65,3 +65,49 @@ margin-left: -50px;
 input:checked ~ span{
 color: blue;
 }
+
+/* button-wrapper */
+.button-wrapper{
+  display: flex;
+flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.butt {
+ margin-bottom: 10px;
+}
+.inspan {
+width: 300px;
+height: 100px;
+margin-bottom: 5px;
+border: 1px solid #000;
+background-color: green;
+}
+
+.span-red{
+  background-color: rgb(224, 20, 20);
+}
+
+
+.wrapper{
+  margin-left: 400px;
+}
+.trigger{
+margin-bottom: 10px;
+
+}
+
+.demo{
+  width: 200px;
+  height: 100px;
+  border: 1px solid #000;
+  margin-bottom: 3px;
+}
+
+.demo-green{
+background-color: rgb(197, 101, 11);
+}
